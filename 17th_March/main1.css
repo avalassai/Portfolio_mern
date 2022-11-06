@@ -1,0 +1,30 @@
+.container{
+    height: 800px;
+    width: 800px;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    height: 100px;
+    width: 800px;
+    display: flex;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-image: url(./images/chess.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box_black{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: black;
+    background-image: url(./images/chess2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

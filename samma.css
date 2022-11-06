@@ -1,0 +1,7 @@
+.image{
+    background-color: aqua;
+    background-image: url('./images/IMAGE.JPG');
+}
+body{
+    background-color: antiquewhite;
+}

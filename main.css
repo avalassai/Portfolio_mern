@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    flex: 0.2;
+    background-color: rgb(83, 73, 73);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.sideheading{
+    text-align: center;
+    justify-content: space-between;
+    flex: 0.2;
+}
+.sideheading > h4{
+    font-size: 25px;
+}
+.sidedetails{
+    text-align: center;
+    flex: 0.6;
+}
+.sidedetails>h4{
+    padding: 25px;
+}
+.main{
+    flex: 0.8;
+    display: flex;
+}
+.image_container{
+    flex: 0.7;
+    background-image: url(./images/sai3.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    clip-path: polygon(0% 0%,50% 0%,100% 50%,50% 100%,0% 100%);
+}
+.info_container{
+    flex: 0.3;
+}
